@@ -10,7 +10,7 @@ const BirthdayGiftMystery = () => {
   const birthdayMonth = 12;
 
   const mysteryGifts = [
-    { day: 1, clue: "Mis manos tejen historias, cada punto cuenta un secreto tuyo", gift: "Manualidad" },
+    { day: 1, clue: "Mis manos tejen historias, cada punto cuenta un secreto nuestro", gift: "Manualidad" },
     { day: 2, clue: "Invisible al ojo, pero presente en cada caricia, soy el recuerdo que persiste", gift: "Loción" },
     { day: 3, clue: "Guardo tus tesoros, tus sueños, tus secretos más cercanos", gift: "Billetera" },
     { day: 4, clue: "Capricho delicioso, amor entre pan y sabor", gift: "Hamburguesita" },
