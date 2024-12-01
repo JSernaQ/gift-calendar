@@ -12,13 +12,13 @@ const BirthdayGiftMystery = () => {
   const mysteryGifts = [
     { day: 1, clue: "Mis manos tejen historias, cada punto cuenta un secreto tuyo", gift: "Manualidad" },
     { day: 2, clue: "Invisible al ojo, pero presente en cada caricia, soy el recuerdo que persiste", gift: "Loción" },
-    { day: 3, clue: "Suave como una caricia, cuido tu piel como un susurro de amor", gift: "Body" },
-    { day: 4, clue: "Guardo tus tesoros, tus sueños, tus secretos más cercanos", gift: "Billetera" },
+    { day: 3, clue: "Guardo tus tesoros, tus sueños, tus secretos más cercanos", gift: "Billetera" },
+    { day: 4, clue: "Capricho delicioso, amor entre pan y sabor", gift: "Hamburguesita" },
     { day: 5, clue: "Dulces momentos, pequeños placeres que endulzan nuestro camino", gift: "Dulces" },
-    { day: 6, clue: "Entre estrellas y naturaleza, un abrazo de aventura nos espera", gift: "Glamping" },
-    { day: 7, clue: "Pétalos que hablan sin palabras, color y vida en un lenguaje silencioso", gift: "Flores" },
+    { day: 6, clue: "Pétalos que hablan sin palabras, color y vida en un lenguaje silencioso", gift: "Flores" },
+    { day: 7, clue: "Entre estrellas y naturaleza, un abrazo de aventura nos espera", gift: "Glamping" },
     { day: 8, clue: "Mesa, luz, sabores que bailan, un momento íntimo solo para nosotros", gift: "Cena" },
-    { day: 9, clue: "Capricho delicioso, amor entre pan y sabor", gift: "Hamburguesita" },
+    { day: 9, clue: "A veces es difícil de ver, pero se ajusta a tu figura y te cubre con suavidad, un abrazo cercano para tu torso", gift: "Body"},    
   ];
 
   const personalPhotos = [
