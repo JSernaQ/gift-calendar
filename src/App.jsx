@@ -139,22 +139,23 @@ const BirthdayGiftMystery = () => {
           <PhotoExplosion images={personalPhotos} />
 
           {showConfetti && (
-            <div className="fixed inset-0 flex items-center justify-center">
+            <div className="fixed inset-0 flex items-center justify-center z-20">
               <h1 className="text-white">¡Felicidades!</h1>
             </div>
           )}
+
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ type: "spring", stiffness: 260, damping: 20 }}
             className="z-10 text-center"
           >
-            <h1 className="text-5xl font-bold text-white mb-6 drop-shadow-lg">Desafío de Amor</h1>
+            <h1 className="text-5xl font-bold text-white mb-6 drop-shadow-md">Desafío de Amor</h1>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={handleStart}
-              className="bg-white text-pink-500 px-8 py-4 rounded-full text-2xl shadow-2xl flex items-center gap-3"
+              className="bg-white text-pink-500 px-8 py-4 rounded-full text-xl shadow-md flex items-center gap-3 justify-center mx-auto"
             >
               <Puzzle className="w-8 h-8 text-pink-400" />
               Comenzar Aventura
@@ -162,7 +163,6 @@ const BirthdayGiftMystery = () => {
             </motion.button>
           </motion.div>
         </div>
-
       ) : (
         <>
           <motion.h1
@@ -183,8 +183,8 @@ const BirthdayGiftMystery = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: mystery.day * 0.2 }}
                 className={`relative cursor-pointer ${currentDate.getMonth() + 1 === birthdayMonth && currentDate.getDate() >= mystery.day
-                  ? "hover:scale-105"
-                  : "opacity-50 cursor-not-allowed"
+                    ? "hover:scale-105"
+                    : "opacity-50 cursor-not-allowed"
                   }`}
                 onClick={() => handleClueReveal(mystery.day)}
               >
@@ -221,10 +221,10 @@ const BirthdayGiftMystery = () => {
               </motion.div>
             ))}
           </div>
-
         </>
       )}
     </div>
+
   );
 };
 
