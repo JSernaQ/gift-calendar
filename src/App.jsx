@@ -15,8 +15,8 @@ const BirthdayGiftMystery = () => {
     { day: 3, clue: "Guardo tus tesoros, tus sueños, tus secretos más cercanos", gift: "Billetera" },
     { day: 4, clue: "Capricho delicioso, amor entre pan y sabor", gift: "Hamburguesita" },
     { day: 5, clue: "Pétalos que hablan sin palabras, color y vida en un lenguaje silencioso", gift: "Flores" },
-    { day: 6, clue: "Dulces momentos, pequeños placeres que endulzan nuestro camino", gift: "Dulces" },
-    { day: 7, clue: "Entre estrellas y naturaleza, un abrazo de aventura nos espera", gift: "Glamping" },
+    { day: 6, clue: "Entre estrellas y naturaleza, un abrazo de aventura nos espera", gift: "Glamping" },
+    { day: 7, clue: "Dulces momentos, pequeños placeres que endulzan nuestro camino", gift: "Dulces" },
     { day: 8, clue: "Mesa, luz, sabores que bailan, un momento íntimo solo para nosotros", gift: "Cena" },
     { day: 9, clue: "A veces es difícil de ver, pero se ajusta a tu figura y te cubre con suavidad, un abrazo cercano para tu torso", gift: "Body"},    
   ];
