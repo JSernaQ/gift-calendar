@@ -16,9 +16,9 @@ const BirthdayGiftMystery = () => {
     { day: 4, clue: "Capricho delicioso, amor entre pan y sabor", gift: "Hamburguesita" },
     { day: 5, clue: "Pétalos que hablan sin palabras, color y vida en un lenguaje silencioso", gift: "Flores" },
     { day: 6, clue: "Entre estrellas y naturaleza, un abrazo de aventura nos espera", gift: "Glamping" },
-    { day: 7, clue: "Dulces momentos, pequeños placeres que endulzan nuestro camino", gift: "Dulces" },
-    { day: 8, clue: "Mesa, luz, sabores que bailan, un momento íntimo solo para nosotros", gift: "Cena" },
-    { day: 9, clue: "A veces es difícil de ver, pero se ajusta a tu figura y te cubre con suavidad, un abrazo cercano para tu torso", gift: "Body"},    
+    { day: 7, clue: "Alquimista de penumbras, transmuto el vacío en geografía de claridad", gift: "Lampara" },
+    { day: 8, clue: "Secreto de hilos que me envuelven, geografía móvil de mis pasos", gift: "Pantalon" },
+    { day: 9, clue: "Deslumbrante velo que acaricia cada curva, susurro de seda que despierta la imaginación.", gift: "Body"},    
   ];
 
   const personalPhotos = [
